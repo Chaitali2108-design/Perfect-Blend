@@ -1,0 +1,187 @@
+body{
+margin: 0;
+padding: 0;
+font-family: lucida calligraphic;
+}
+.blank {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.u{
+    height: 80px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 100px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: lucida calligraphic;
+}
+.abou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slider-container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider {
+    
+    position: relative;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  background-position: center;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide{
+   min-width:100%;
+    height: 500px;
+    background-size: cover;
+    
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.story{
+    height: 270px;
+    width: 100%;
+}
+.our{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-section {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.location-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.locations p {
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations i {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #b8860b; /* Golden-like color for premium feel */
+}
+.slogan{
+    height: 50px;
+    width: 700px;
+    font-size: 40px;
+    font-family: Brush Script MT;
+    color: #D7A86E;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission{
+    height: 50px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    height: 370px;
+    width:100%;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.para1{
+    height: 100px;
+    width:80%;
+    font-size: 27px;
+    color:#40220e;
+    text-align: center;
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: lucida calligraphic;
+   
+}
+.spara{
+    font-size: 27px;
+    color:#40220e;
+    font-weight: bold;
+    font-family: lucida calligraphic;
+}

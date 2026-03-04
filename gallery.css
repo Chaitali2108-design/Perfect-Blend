@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+.blank {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.about{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+.us{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+}
+.container {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    margin-top: -25px;
+}
+
+#logo {
+    height: 150px;
+   
+    background-size: cover;
+   
+   
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.all {
+    height: 100px;
+    
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#download {
+    height: 65px;
+    width: 250px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 8px;
+    text-decoration: none;
+    border-radius: 4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.u{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 100px;
+    width: 400px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: lucida calligraphic;
+}
+.abou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 350px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img{
+    height: 350px;
+    width: 350px;
+    border: 7px solid white;
+   border-top: 13px solid white;
+   background-size: cover;
+}
+.spimg{
+height: 100px;
+width: 200px;
+margin: auto;
+margin-top: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}

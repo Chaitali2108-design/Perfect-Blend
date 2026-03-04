@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="gallery.css">
+
+</head>
+<body>
+ <div id="navbar"></div>
+
+<script>
+    fetch("../navbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+        });
+</script>
+    <div class="abou">
+        <div class="u">
+          <p class="line">Gallery</p>
+        </div>
+      </div>
+      <div class="box1">
+        <img src="shake.jpg" class="img">
+        <img src="burger.webp" class="img">
+        <img src="../coffe.jpg" class="img">
+      </div>
+      <div class="box1">
+        <img src="egg.jpeg" class="img">
+        <img src="leg.jpeg" class="img">
+        <img src="../coffee.webp" class="img">
+      </div>
+      <div class="box1">
+        <img src="../break.jpg" class="img">
+        <img src="../best items/croissant.jpg" class="img">
+        <img src="../sand.jpg" class="img">
+      </div>
+      <div class="box1">
+        <img src="desert.jpeg" class="img">
+        <img src="noodlees.jpeg" class="img">
+        <img src="vada.jpeg" class="img">
+      </div>
+      <hr>
+     <div class="blank"></div>
+</body>
+</html>
